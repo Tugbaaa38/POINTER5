@@ -26,7 +26,7 @@ int main() {
     
   for(i=0;i<=SonSayi;i++)
   { 
-  	Fact(i,&f);            //gonderdigimiz sayi belli oldugu icin & isareti ile gondermemize gerek yoktur.
+  	Fact(i,&f);            //gonderdigimiz sayi belli oldugu icin & isareti ile gondermemize gerek yoktur cunku sayinin kendisini gonderiyoruz adresini degil.
   	printf("%d!=%d\n",i,f);
   }
 
