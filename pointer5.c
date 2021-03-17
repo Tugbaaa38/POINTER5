@@ -32,3 +32,7 @@ int main() {
 
 	return 0;
 }
+/* Fact(a) --> deger ile cagirma (call by value)
+   Fact(&a) --> referans ile cagirma (call by reference )
+   Yerel bir degiskeni degistirmek icin call by reference kullaniriz. Boyle bir cagrida fonksiyona bir nesnenin adresi gonderilir.Fonksiyonun parametre degiskeni de bu adresi
+   tutacak bir gosterici olur.
