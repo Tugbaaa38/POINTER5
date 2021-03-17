@@ -4,10 +4,10 @@
 //Parametre degiskeni pointer olan fonksiyonlar
 //Parametre degiskeni pointer olan fonksiyon yardimi ile faktoriyel bulma;
 
-void Fact(int sayi,long *fak)
+void Fact(int sayi,long *fak)          //ilk parametre faktoriyeli alinacak sayiyi,ikinci parametre ise faktoriyel sonucunu temsil ediyor.
 {
 	*fak=1;
-	if(sayi==0 || sayi==1)
+	if(sayi==0 || sayi==1)        //burada ise faktoriyeli alinacak sayimiz 0 veya 1 ise 1 donecektir.
 	{
 		return ;
 	}
@@ -25,8 +25,8 @@ int main() {
   scanf("%d",&SonSayi);
     
   for(i=0;i<=SonSayi;i++)
-  {
-  	Fact(i,&f);
+  { 
+  	Fact(i,&f);            //gonderdigimiz sayi belli oldugu icin & isareti ile gondermemize gerek yoktur.
   	printf("%d!=%d\n",i,f);
   }
 
